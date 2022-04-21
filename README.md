@@ -12,7 +12,7 @@ On the Tigergraph console, import the **mentalhealthhero.tar.gz** file into your
 
 
 ### 👉 Step 3: Add the data files to your Tigergraph instance
-Please download all the CSV files in the **data/** folder in this repository, then on the "Map Data" section in Tigergraph, add all those files (with those exact filenames!).
+Please unzip the **data.zip** file to download all the CSVs to your comptuer, and then in Tigergraph on the "Map Data" section in Tigergraph, add all those files (with those exact filenames!).
 
 You _may_ need to publish the Design Schema and "Map Data to Graph" areas too.
 
