@@ -1,17 +1,21 @@
 # Mental Health Hero - Tigergraph Hackathon (Graph for All)
 Repository with the source code and data to replicate and run our Mental Health Challenge demo for the Tigergraph Graph for All Hackathon.
 
+
 ## How to install our solution into your Tigergraph instance
 ### Step 1: Download our solution from this repository
 Download the file **mentalhealthhero.tar.gz** from this repository.
 
+
 ### Step 2: Import the solution into your instance.
 On the Tigergraph console, import the **mentalhealthhero.tar.gz** file into your Tigergraph instance by clicking "Import an Existing Solution".
+
 
 ### Step 3: Add the data files to your Tigergraph instance
 Please download all the CSV files in the **data/** folder in this repository, then on the "Map Data" section in Tigergraph, add all those files (with those exact filenames!).
 
 You _may_ need to publish the Design Schema and "Map Data to Graph" areas too.
+
 
 ### Step 4: Explore the graph
 In the Explore Graph section, you can try selecting a few vertices to explore the graph.
