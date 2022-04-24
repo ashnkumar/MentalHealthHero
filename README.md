@@ -17,13 +17,17 @@ Please unzip the **data.zip** file to download all the CSVs to your comptuer, an
 You _may_ need to publish the Design Schema and "Map Data to Graph" areas too.
 
 
-### 👉 Step 4: Explore the graph
-In the Explore Graph section, you can try selecting a few vertices to explore the graph.
+### 👉 Step 4: Load data into graph
+In the "Load Data" section of Graphstudio, press the play icon to load the data.
+
+
+### 👉 Step 5: Explore the graph
+Once the data is loaded, in the Explore Graph section, you can try selecting a few vertices to explore the graph.
 
 Try using the vertex type Person, with Vertex id of "patient17" to see an example!
 
 
-### 👉 Step 5: Run the mental health treatment plan recommendation query
+### 👉 Step 6: Run the mental health treatment plan recommendation query
 In the "Write queries" section, install the following queries:
 * **find_mental_health_recommendations**
 * **find_similar_ad_hoc**
@@ -32,9 +36,9 @@ In the "Write queries" section, install the following queries:
 Try putting in an example like **patient17** for the "find_mental_health_recommendations" query to find similar patients, who can point to potential recommended treatment plans.
 
 
-### 👉 Step 6 (optional): Connect our front-end to your instance! ([cached demo site here](https://mental-health-hero.herokuapp.com/))
+### 👉 Step 7 (optional): Connect our front-end to your instance! ([cached demo site here](https://mental-health-hero.herokuapp.com/))
 You'll need to clone this repository down and do some configuration to get the frontend working live on localhost:
-1. Clone this repository
+1. Clone this repository and go into the `frontenddemo` folder
 2. Copy the `configtemplate.json` into a new file called `config.json` in the same root level directory
 3. In this `config.json file` change the following:
   a) replace `tg_token` with your Tigergraph API token which you can get by following [these instructions](https://docs.tigergraph.com/tigergraph-server/current/api/built-in-endpoints#_request_a_token)
@@ -42,9 +46,10 @@ You'll need to clone this repository down and do some configuration to get the f
     1. patient_journey_subgraph
     2. find_mental_health_recommendations
     3. find_similar_ad_hoc
+  c) Delete the comments in the `config.json` file!
 2. Run the following commands to install requirements and launch demo
 ```
-cd MentalHealthHeroku
+cd MentalHealthHeros
 cd frontenddemo
 npm install && cd client && npm install
 cd ..
