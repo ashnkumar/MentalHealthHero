@@ -1,0 +1,3500 @@
+{
+	"patient_subgraph": {
+		"patient50": [
+	  	{
+		
+	    "@@edgeSet": [
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "books_session",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "session10",
+	        "to_type": "TherapySession"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "books_session",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "session426",
+	        "to_type": "TherapySession"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "fills_out",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "daas463",
+	        "to_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "fills_out",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "daas399",
+	        "to_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "fills_out",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "daas1",
+	        "to_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "fills_out",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "daas11",
+	        "to_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "wrote_tweet",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "tweet81",
+	        "to_type": "Tweet"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "recorded_voice",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "voice298",
+	        "to_type": "VoiceEntry"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "books_session",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "session106",
+	        "to_type": "TherapySession"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "wrote_tweet",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "tweet194",
+	        "to_type": "Tweet"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "fills_out",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "daas378",
+	        "to_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "fills_out",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "daas413",
+	        "to_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "recorded_voice",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "voice360",
+	        "to_type": "VoiceEntry"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "wrote_tweet",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "tweet123",
+	        "to_type": "Tweet"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "wrote_tweet",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "tweet92",
+	        "to_type": "Tweet"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "wrote_tweet",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "tweet64",
+	        "to_type": "Tweet"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "wrote_tweet",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "tweet170",
+	        "to_type": "Tweet"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "fills_out",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "daas203",
+	        "to_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {},
+	        "directed": true,
+	        "e_type": "recorded_voice",
+	        "from_id": "patient50",
+	        "from_type": "Person",
+	        "to_id": "voice148",
+	        "to_type": "VoiceEntry"
+	      }
+	    ],
+	    "cust": [
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "",
+	          "id": "patient50",
+	          "p_type": "Severe Depression"
+	        },
+	        "v_id": "patient50",
+	        "v_type": "Person"
+	      }
+	    ],
+	    "daasSeverities": [
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "high",
+	          "@diagnosis": "",
+	          "@sentiment": "",
+	          "created": "2022-01-22 00:00:00",
+	          "id": "daas378"
+	        },
+	        "v_id": "daas378",
+	        "v_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "high",
+	          "@diagnosis": "",
+	          "@sentiment": "",
+	          "created": "2022-01-28 00:00:00",
+	          "id": "daas463"
+	        },
+	        "v_id": "daas463",
+	        "v_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "low",
+	          "@diagnosis": "",
+	          "@sentiment": "",
+	          "created": "2022-01-27 00:00:00",
+	          "id": "daas1"
+	        },
+	        "v_id": "daas1",
+	        "v_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "medium",
+	          "@diagnosis": "",
+	          "@sentiment": "",
+	          "created": "2022-03-01 00:00:00",
+	          "id": "daas203"
+	        },
+	        "v_id": "daas203",
+	        "v_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "high",
+	          "@diagnosis": "",
+	          "@sentiment": "",
+	          "created": "2022-01-12 00:00:00",
+	          "id": "daas413"
+	        },
+	        "v_id": "daas413",
+	        "v_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "low",
+	          "@diagnosis": "",
+	          "@sentiment": "",
+	          "created": "2022-01-17 00:00:00",
+	          "id": "daas11"
+	        },
+	        "v_id": "daas11",
+	        "v_type": "DaaSQuestionnaire"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "high",
+	          "@diagnosis": "",
+	          "@sentiment": "",
+	          "created": "2022-01-11 00:00:00",
+	          "id": "daas399"
+	        },
+	        "v_id": "daas399",
+	        "v_type": "DaaSQuestionnaire"
+	      }
+	    ],
+	    "therapyDiagnoses": [
+	      {
+	        "attributes": {
+	          "@attendance": "did_attend",
+	          "@dass_severity": "",
+	          "@diagnosis": "Anxiety",
+	          "@sentiment": "",
+	          "created": "2022-03-01 00:00:00",
+	          "id": "session426"
+	        },
+	        "v_id": "session426",
+	        "v_type": "TherapySession"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "did_not_attend",
+	          "@dass_severity": "",
+	          "@diagnosis": "Depression",
+	          "@sentiment": "",
+	          "created": "2022-01-08 00:00:00",
+	          "id": "session10"
+	        },
+	        "v_id": "session10",
+	        "v_type": "TherapySession"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "did_not_attend",
+	          "@dass_severity": "",
+	          "@diagnosis": "Depression",
+	          "@sentiment": "",
+	          "created": "2022-03-15 00:00:00",
+	          "id": "session106"
+	        },
+	        "v_id": "session106",
+	        "v_type": "TherapySession"
+	      }
+	    ],
+	    "tweets": [
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "sad",
+	          "created": "2022-02-10 00:00:00",
+	          "id": "tweet170",
+	          "vert_index": 0
+	        },
+	        "v_id": "tweet170",
+	        "v_type": "Tweet"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "happy",
+	          "created": "2022-02-01 00:00:00",
+	          "id": "tweet64",
+	          "vert_index": 0
+	        },
+	        "v_id": "tweet64",
+	        "v_type": "Tweet"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "mixed",
+	          "created": "2022-03-05 00:00:00",
+	          "id": "tweet92",
+	          "vert_index": 0
+	        },
+	        "v_id": "tweet92",
+	        "v_type": "Tweet"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "sad",
+	          "created": "2022-02-19 00:00:00",
+	          "id": "tweet194",
+	          "vert_index": 0
+	        },
+	        "v_id": "tweet194",
+	        "v_type": "Tweet"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "mixed",
+	          "created": "2022-01-14 00:00:00",
+	          "id": "tweet81",
+	          "vert_index": 0
+	        },
+	        "v_id": "tweet81",
+	        "v_type": "Tweet"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "mixed",
+	          "created": "2022-02-12 00:00:00",
+	          "id": "tweet123",
+	          "vert_index": 0
+	        },
+	        "v_id": "tweet123",
+	        "v_type": "Tweet"
+	      }
+	    ],
+	    "voiceEntries": [
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "very_sad",
+	          "created": "2022-03-28 00:00:00",
+	          "id": "voice360"
+	        },
+	        "v_id": "voice360",
+	        "v_type": "VoiceEntry"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "mixed",
+	          "created": "2022-01-25 00:00:00",
+	          "id": "voice148"
+	        },
+	        "v_id": "voice148",
+	        "v_type": "VoiceEntry"
+	      },
+	      {
+	        "attributes": {
+	          "@attendance": "",
+	          "@dass_severity": "",
+	          "@diagnosis": "",
+	          "@sentiment": "sad",
+	          "created": "2022-03-11 00:00:00",
+	          "id": "voice298"
+	        },
+	        "v_id": "voice298",
+	        "v_type": "VoiceEntry"
+	      }
+	    ]
+	  }
+		],
+		"patient133": [
+		  {
+		    "@@edgeSet": [
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "daas609",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "tweet1155",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "voice1153",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "voice1397",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "voice1462",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "tweet1257",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "voice1486",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "voice1358",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "tweet1661",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "voice1770",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient133",
+		        "from_type": "Person",
+		        "to_id": "voice1257",
+		        "to_type": "VoiceEntry"
+		      }
+		    ],
+		    "cust": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "",
+		          "id": "patient133",
+		          "p_type": "Mixed"
+		        },
+		        "v_id": "patient133",
+		        "v_type": "Person"
+		      }
+		    ],
+		    "daasSeverities": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@sentiment": "",
+		          "created": "2022-01-31 00:00:00",
+		          "id": "daas609"
+		        },
+		        "v_id": "daas609",
+		        "v_type": "DaaSQuestionnaire"
+		      }
+		    ],
+		    "therapyDiagnoses": [],
+		    "tweets": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "mixed",
+		          "created": "2022-01-19 00:00:00",
+		          "id": "tweet1257",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1257",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "very_sad",
+		          "created": "2022-03-08 00:00:00",
+		          "id": "tweet1661",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1661",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "happy",
+		          "created": "2022-01-28 00:00:00",
+		          "id": "tweet1155",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1155",
+		        "v_type": "Tweet"
+		      }
+		    ],
+		    "voiceEntries": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "happy",
+		          "created": "2022-01-07 00:00:00",
+		          "id": "voice1257"
+		        },
+		        "v_id": "voice1257",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "mixed",
+		          "created": "2022-01-22 00:00:00",
+		          "id": "voice1397"
+		        },
+		        "v_id": "voice1397",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "very_happy",
+		          "created": "2022-02-23 00:00:00",
+		          "id": "voice1153"
+		        },
+		        "v_id": "voice1153",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "mixed",
+		          "created": "2022-01-13 00:00:00",
+		          "id": "voice1486"
+		        },
+		        "v_id": "voice1486",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "very_sad",
+		          "created": "2022-02-03 00:00:00",
+		          "id": "voice1770"
+		        },
+		        "v_id": "voice1770",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "mixed",
+		          "created": "2022-01-11 00:00:00",
+		          "id": "voice1462"
+		        },
+		        "v_id": "voice1462",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@sentiment": "happy",
+		          "created": "2022-01-14 00:00:00",
+		          "id": "voice1358"
+		        },
+		        "v_id": "voice1358",
+		        "v_type": "VoiceEntry"
+		      }
+		    ]
+		  }
+		]
+	},
+	"patient_similarities": {
+		"patient50": [
+		  {
+		    "@@edgeSet": [
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "session395",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "session81",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "session77",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "session17",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "session302",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "session291",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "session922",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "voice308",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "tweet118",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "voice134",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "voice242",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "tweet97",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "daas677",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "tweet62",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "voice2677",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "tweet220",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "tweet290",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "session436",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "daas435",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "daas403",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "tweet291",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "session31",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "tweet55",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "tweet2163",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "voice239",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "tweet2532",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "tweet2612",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "tweet2562",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "daas690",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "daas4",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "tweet2482",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "voice2606",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "tweet90",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "voice7",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "tweet2370",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "voice2861",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "tweet121",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "voice2572",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "voice2696",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "tweet349",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "voice2752",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "daas434",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "voice2441",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "daas193",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "voice145",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "voice113",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "voice49",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "voice108",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "daas377",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "voice189",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "daas180",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient238",
+		        "from_type": "Person",
+		        "to_id": "session270",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "daas450",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "session24",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient29",
+		        "from_type": "Person",
+		        "to_id": "daas456",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient6",
+		        "from_type": "Person",
+		        "to_id": "daas183",
+		        "to_type": "DaaSQuestionnaire"
+		      }
+		    ],
+		    "Others": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [
+		            "high",
+		            "high",
+		            "Anxiety",
+		            "Depression",
+		            "Depression",
+		            "did_not_attend",
+		            "did_not_attend",
+		            "did_attend",
+		            "sad",
+		            "sad",
+		            "very_happy",
+		            "happy",
+		            "happy",
+		            "low",
+		            "medium",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "mixed"
+		          ],
+		          "@bag_intersection": [
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "medium",
+		            "low",
+		            "happy",
+		            "high",
+		            "high",
+		            "sad",
+		            "sad",
+		            "Anxiety",
+		            "Depression",
+		            "Depression",
+		            "did_attend",
+		            "did_not_attend",
+		            "did_not_attend"
+		          ],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "",
+		          "@sentiment": "",
+		          "@sum_similarity": 0.65385,
+		          "id": "patient6",
+		          "p_type": "Severe Depression"
+		        },
+		        "v_id": "patient6",
+		        "v_type": "Person"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [
+		            "high",
+		            "high",
+		            "high",
+		            "high",
+		            "Depression",
+		            "Depression",
+		            "Depression",
+		            "Anxiety",
+		            "did_not_attend",
+		            "did_not_attend",
+		            "did_not_attend",
+		            "did_attend",
+		            "happy",
+		            "sad",
+		            "sad",
+		            "medium",
+		            "mixed",
+		            "mixed",
+		            "very_sad",
+		            "very_sad",
+		            "very_sad",
+		            "very_sad"
+		          ],
+		          "@bag_intersection": [
+		            "high",
+		            "high",
+		            "high",
+		            "high",
+		            "Anxiety",
+		            "Depression",
+		            "Depression",
+		            "very_sad",
+		            "sad",
+		            "sad",
+		            "happy",
+		            "did_not_attend",
+		            "did_not_attend",
+		            "mixed",
+		            "mixed",
+		            "medium",
+		            "did_attend"
+		          ],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "",
+		          "@sentiment": "",
+		          "@sum_similarity": 0.62963,
+		          "id": "patient29",
+		          "p_type": "Severe Depression"
+		        },
+		        "v_id": "patient29",
+		        "v_type": "Person"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [
+		            "high",
+		            "high",
+		            "low",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "very_sad",
+		            "sad",
+		            "sad",
+		            "sad",
+		            "sad",
+		            "happy",
+		            "happy",
+		            "very_happy",
+		            "very_happy",
+		            "did_not_attend",
+		            "did_not_attend",
+		            "did_not_attend",
+		            "did_attend",
+		            "Depression",
+		            "None",
+		            "None"
+		          ],
+		          "@bag_intersection": [
+		            "high",
+		            "high",
+		            "Depression",
+		            "did_attend",
+		            "did_not_attend",
+		            "did_not_attend",
+		            "very_sad",
+		            "sad",
+		            "sad",
+		            "sad",
+		            "happy",
+		            "low",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "mixed"
+		          ],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "",
+		          "@sentiment": "",
+		          "@sum_similarity": 0.55172,
+		          "id": "patient238",
+		          "p_type": "Severely Anxious"
+		        },
+		        "v_id": "patient238",
+		        "v_type": "Person"
+		      }
+		    ],
+		    "daasSeverities": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "low",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-06 00:00:00",
+		          "id": "daas4"
+		        },
+		        "v_id": "daas4",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-08 00:00:00",
+		          "id": "daas677"
+		        },
+		        "v_id": "daas677",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-23 00:00:00",
+		          "id": "daas403"
+		        },
+		        "v_id": "daas403",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-10 00:00:00",
+		          "id": "daas456"
+		        },
+		        "v_id": "daas456",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-23 00:00:00",
+		          "id": "daas434"
+		        },
+		        "v_id": "daas434",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "medium",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-01 00:00:00",
+		          "id": "daas183"
+		        },
+		        "v_id": "daas183",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "low",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-19 00:00:00",
+		          "id": "daas180"
+		        },
+		        "v_id": "daas180",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-07 00:00:00",
+		          "id": "daas377"
+		        },
+		        "v_id": "daas377",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "medium",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-26 00:00:00",
+		          "id": "daas193"
+		        },
+		        "v_id": "daas193",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-10 00:00:00",
+		          "id": "daas690"
+		        },
+		        "v_id": "daas690",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-28 00:00:00",
+		          "id": "daas450"
+		        },
+		        "v_id": "daas450",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-07 00:00:00",
+		          "id": "daas435"
+		        },
+		        "v_id": "daas435",
+		        "v_type": "DaaSQuestionnaire"
+		      }
+		    ],
+		    "therapyDiagnoses": [
+		      {
+		        "attributes": {
+		          "@attendance": "did_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "Anxiety",
+		          "@personid": "patient6",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-14 00:00:00",
+		          "id": "session436"
+		        },
+		        "v_id": "session436",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_not_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "None",
+		          "@personid": "patient238",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-20 00:00:00",
+		          "id": "session302"
+		        },
+		        "v_id": "session302",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_not_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "Depression",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-11 00:00:00",
+		          "id": "session81"
+		        },
+		        "v_id": "session81",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_not_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "Depression",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-26 00:00:00",
+		          "id": "session24"
+		        },
+		        "v_id": "session24",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_not_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "Depression",
+		          "@personid": "patient238",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-07 00:00:00",
+		          "id": "session270"
+		        },
+		        "v_id": "session270",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_not_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "Depression",
+		          "@personid": "patient6",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-10 00:00:00",
+		          "id": "session77"
+		        },
+		        "v_id": "session77",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_not_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "None",
+		          "@personid": "patient238",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-01 00:00:00",
+		          "id": "session291"
+		        },
+		        "v_id": "session291",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "Anxiety",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-08 00:00:00",
+		          "id": "session395"
+		        },
+		        "v_id": "session395",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_not_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "Depression",
+		          "@personid": "patient29",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-02 00:00:00",
+		          "id": "session17"
+		        },
+		        "v_id": "session17",
+		        "v_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "did_not_attend",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "Depression",
+		          "@personid": "patient6",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-20 00:00:00",
+		          "id": "session31"
+		        },
+		        "v_id": "session31",
+		        "v_type": "TherapySession"
+		      }
+		    ],
+		    "tweets": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-25 00:00:00",
+		          "id": "tweet2612",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet2612",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-28 00:00:00",
+		          "id": "tweet2370",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet2370",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-13 00:00:00",
+		          "id": "tweet118",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet118",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-30 00:00:00",
+		          "id": "tweet291",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet291",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-05 00:00:00",
+		          "id": "tweet2163",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet2163",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-05 00:00:00",
+		          "id": "tweet2482",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet2482",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-19 00:00:00",
+		          "id": "tweet220",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet220",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-28 00:00:00",
+		          "id": "tweet90",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet90",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-09 00:00:00",
+		          "id": "tweet97",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet97",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-05 00:00:00",
+		          "id": "tweet62",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet62",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-19 00:00:00",
+		          "id": "tweet2562",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet2562",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-03 00:00:00",
+		          "id": "tweet2532",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet2532",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-19 00:00:00",
+		          "id": "tweet55",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet55",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-18 00:00:00",
+		          "id": "tweet349",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet349",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-19 00:00:00",
+		          "id": "tweet290",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet290",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-01 00:00:00",
+		          "id": "tweet121",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet121",
+		        "v_type": "Tweet"
+		      }
+		    ],
+		    "voiceEntries": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-11 00:00:00",
+		          "id": "voice308"
+		        },
+		        "v_id": "voice308",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-06 00:00:00",
+		          "id": "voice189"
+		        },
+		        "v_id": "voice189",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-11 00:00:00",
+		          "id": "voice134"
+		        },
+		        "v_id": "voice134",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient29",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-22 00:00:00",
+		          "id": "voice242"
+		        },
+		        "v_id": "voice242",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-23 00:00:00",
+		          "id": "voice108"
+		        },
+		        "v_id": "voice108",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-11 00:00:00",
+		          "id": "voice2696"
+		        },
+		        "v_id": "voice2696",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-15 00:00:00",
+		          "id": "voice2606"
+		        },
+		        "v_id": "voice2606",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-27 00:00:00",
+		          "id": "voice239"
+		        },
+		        "v_id": "voice239",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-29 00:00:00",
+		          "id": "voice2572"
+		        },
+		        "v_id": "voice2572",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-02 00:00:00",
+		          "id": "voice49"
+		        },
+		        "v_id": "voice49",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-26 00:00:00",
+		          "id": "voice2752"
+		        },
+		        "v_id": "voice2752",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-13 00:00:00",
+		          "id": "voice2441"
+		        },
+		        "v_id": "voice2441",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-05 00:00:00",
+		          "id": "voice2861"
+		        },
+		        "v_id": "voice2861",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient238",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-03 00:00:00",
+		          "id": "voice2677"
+		        },
+		        "v_id": "voice2677",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-15 00:00:00",
+		          "id": "voice113"
+		        },
+		        "v_id": "voice113",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-08 00:00:00",
+		          "id": "voice145"
+		        },
+		        "v_id": "voice145",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient6",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-14 00:00:00",
+		          "id": "voice7"
+		        },
+		        "v_id": "voice7",
+		        "v_type": "VoiceEntry"
+		      }
+		    ]
+		  }
+		],
+		"patient133": [
+		  {
+		    "@@edgeSet": [
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "session692",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "daas587",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "daas280",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "daas600",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "voice1589",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "voice1753",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "voice1235",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "voice1332",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "session687",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "voice1279",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "daas76",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "voice1503",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "voice1526",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "voice1253",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "voice1521",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "voice1691",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "daas620",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "tweet1529",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "voice1619",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "tweet1448",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "tweet990",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "daas249",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "tweet988",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "tweet1231",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "recorded_voice",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "voice1246",
+		        "to_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "tweet1287",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "tweet1083",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "tweet970",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "daas593",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "tweet1068",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "daas264",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "tweet1260",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "tweet1223",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "tweet1146",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "tweet1543",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "tweet975",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "tweet1655",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "tweet1256",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "tweet1090",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "books_session",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "session716",
+		        "to_type": "TherapySession"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient118",
+		        "from_type": "Person",
+		        "to_id": "tweet947",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "tweet1482",
+		        "to_type": "Tweet"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "fills_out",
+		        "from_id": "patient125",
+		        "from_type": "Person",
+		        "to_id": "daas266",
+		        "to_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {},
+		        "directed": true,
+		        "e_type": "wrote_tweet",
+		        "from_id": "patient136",
+		        "from_type": "Person",
+		        "to_id": "tweet1545",
+		        "to_type": "Tweet"
+		      }
+		    ],
+		    "Others": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [
+		            "high",
+		            "did_attend",
+		            "very_happy",
+		            "very_happy",
+		            "very_happy",
+		            "very_sad",
+		            "very_sad",
+		            "medium",
+		            "medium",
+		            "low",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "happy",
+		            "happy",
+		            "happy",
+		            "sad"
+		          ],
+		          "@bag_intersection": [
+		            "high",
+		            "very_happy",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "mixed",
+		            "very_sad",
+		            "very_sad",
+		            "happy",
+		            "happy",
+		            "happy"
+		          ],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "",
+		          "@sentiment": "",
+		          "@sum_similarity": 0.61111,
+		          "id": "patient118",
+		          "p_type": "Mixed"
+		        },
+		        "v_id": "patient118",
+		        "v_type": "Person"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [
+		            "high",
+		            "high",
+		            "medium",
+		            "mixed",
+		            "mixed",
+		            "very_happy",
+		            "very_sad",
+		            "very_sad",
+		            "sad",
+		            "happy",
+		            "happy"
+		          ],
+		          "@bag_intersection": [
+		            "high",
+		            "happy",
+		            "happy",
+		            "very_sad",
+		            "very_sad",
+		            "mixed",
+		            "mixed",
+		            "very_happy"
+		          ],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "",
+		          "@sentiment": "",
+		          "@sum_similarity": 0.57143,
+		          "id": "patient125",
+		          "p_type": "Mixed"
+		        },
+		        "v_id": "patient125",
+		        "v_type": "Person"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [
+		            "high",
+		            "did_attend",
+		            "did_attend",
+		            "very_sad",
+		            "very_sad",
+		            "medium",
+		            "mixed",
+		            "mixed",
+		            "very_happy",
+		            "very_happy",
+		            "sad",
+		            "sad",
+		            "happy",
+		            "happy",
+		            "happy"
+		          ],
+		          "@bag_intersection": [
+		            "high",
+		            "happy",
+		            "happy",
+		            "happy",
+		            "very_sad",
+		            "very_sad",
+		            "mixed",
+		            "mixed",
+		            "very_happy"
+		          ],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "",
+		          "@sentiment": "",
+		          "@sum_similarity": 0.52941,
+		          "id": "patient136",
+		          "p_type": "Mixed"
+		        },
+		        "v_id": "patient136",
+		        "v_type": "Person"
+		      }
+		    ],
+		    "daasSeverities": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "medium",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-20 00:00:00",
+		          "id": "daas249"
+		        },
+		        "v_id": "daas249",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-17 00:00:00",
+		          "id": "daas600"
+		        },
+		        "v_id": "daas600",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "medium",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-17 00:00:00",
+		          "id": "daas264"
+		        },
+		        "v_id": "daas264",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "low",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-18 00:00:00",
+		          "id": "daas76"
+		        },
+		        "v_id": "daas76",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-30 00:00:00",
+		          "id": "daas593"
+		        },
+		        "v_id": "daas593",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-12 00:00:00",
+		          "id": "daas620"
+		        },
+		        "v_id": "daas620",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "medium",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-09 00:00:00",
+		          "id": "daas280"
+		        },
+		        "v_id": "daas280",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "medium",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-16 00:00:00",
+		          "id": "daas266"
+		        },
+		        "v_id": "daas266",
+		        "v_type": "DaaSQuestionnaire"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "high",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-26 00:00:00",
+		          "id": "daas587"
+		        },
+		        "v_id": "daas587",
+		        "v_type": "DaaSQuestionnaire"
+		      }
+		    ],
+		    "therapyDiagnoses": [],
+		    "tweets": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-06 00:00:00",
+		          "id": "tweet988",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet988",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-25 00:00:00",
+		          "id": "tweet1068",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1068",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-28 00:00:00",
+		          "id": "tweet1231",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1231",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-20 00:00:00",
+		          "id": "tweet1083",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1083",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-09 00:00:00",
+		          "id": "tweet1287",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1287",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-15 00:00:00",
+		          "id": "tweet1256",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1256",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-12 00:00:00",
+		          "id": "tweet947",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet947",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-04 00:00:00",
+		          "id": "tweet1655",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1655",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-25 00:00:00",
+		          "id": "tweet1529",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1529",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-30 00:00:00",
+		          "id": "tweet1090",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1090",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-27 00:00:00",
+		          "id": "tweet1482",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1482",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-14 00:00:00",
+		          "id": "tweet970",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet970",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-22 00:00:00",
+		          "id": "tweet1260",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1260",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-09 00:00:00",
+		          "id": "tweet990",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet990",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-30 00:00:00",
+		          "id": "tweet1543",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1543",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-05 00:00:00",
+		          "id": "tweet1146",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1146",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-27 00:00:00",
+		          "id": "tweet1448",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1448",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-17 00:00:00",
+		          "id": "tweet1545",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1545",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-03 00:00:00",
+		          "id": "tweet975",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet975",
+		        "v_type": "Tweet"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-19 00:00:00",
+		          "id": "tweet1223",
+		          "vert_index": 0
+		        },
+		        "v_id": "tweet1223",
+		        "v_type": "Tweet"
+		      }
+		    ],
+		    "voiceEntries": [
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-22 00:00:00",
+		          "id": "voice1503"
+		        },
+		        "v_id": "voice1503",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-22 00:00:00",
+		          "id": "voice1526"
+		        },
+		        "v_id": "voice1526",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-07 00:00:00",
+		          "id": "voice1246"
+		        },
+		        "v_id": "voice1246",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-27 00:00:00",
+		          "id": "voice1253"
+		        },
+		        "v_id": "voice1253",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-13 00:00:00",
+		          "id": "voice1332"
+		        },
+		        "v_id": "voice1332",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-02-21 00:00:00",
+		          "id": "voice1753"
+		        },
+		        "v_id": "voice1753",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-28 00:00:00",
+		          "id": "voice1279"
+		        },
+		        "v_id": "voice1279",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "very_happy",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-04 00:00:00",
+		          "id": "voice1235"
+		        },
+		        "v_id": "voice1235",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "mixed",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-20 00:00:00",
+		          "id": "voice1521"
+		        },
+		        "v_id": "voice1521",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient118",
+		          "@sentiment": "very_sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-16 00:00:00",
+		          "id": "voice1691"
+		        },
+		        "v_id": "voice1691",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient125",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-03-28 00:00:00",
+		          "id": "voice1619"
+		        },
+		        "v_id": "voice1619",
+		        "v_type": "VoiceEntry"
+		      },
+		      {
+		        "attributes": {
+		          "@attendance": "",
+		          "@bag_b": [],
+		          "@bag_intersection": [],
+		          "@dass_severity": "",
+		          "@diagnosis": "",
+		          "@personid": "patient136",
+		          "@sentiment": "sad",
+		          "@sum_similarity": 0,
+		          "created": "2022-01-04 00:00:00",
+		          "id": "voice1589"
+		        },
+		        "v_id": "voice1589",
+		        "v_type": "VoiceEntry"
+		      }
+		    ]
+		  }
+		]
+	}	
+}

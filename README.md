@@ -1,7 +1,7 @@
 # Mental Health Hero - Tigergraph Hackathon (Graph for All)
 Repository with the source code and data to replicate and run our Mental Health Challenge demo for the Tigergraph Graph for All Hackathon.
 
-
+See Devpost submission [here](https://devpost.com/software/mental-health-hero) for more details.
 
 ### 👉 Step 1: Download our solution from this repository
 Download the file **mentalhealthhero.tar.gz** from this repository.
@@ -24,6 +24,34 @@ Try using the vertex type Person, with Vertex id of "patient17" to see an exampl
 
 
 ### 👉 Step 5: Run the mental health treatment plan recommendation query
-In the "Write queries" section, you'll find the query titles **find_mental_health_recommendations" as a GSQL query.
+In the "Write queries" section, install the following queries:
+* **find_mental_health_recommendations**
+* **find_similar_ad_hoc**
+* **patient_journey_subgraph**
 
-Try putting in an example like **patient17** and run the query to find similar patients, who can point to potential recommended treatment plans.
+Try putting in an example like **patient17** for the "find_mental_health_recommendations" query to find similar patients, who can point to potential recommended treatment plans.
+
+
+### 👉 Step 6 (optional): Connect our front-end to your instance! ([cached demo site here](https://mental-health-hero.herokuapp.com/))
+You'll need to clone this repository down and do some configuration to get the frontend working live on localhost:
+1. Clone this repository
+2. Copy the `configtemplate.json` into a new file called `config.json` in the same root level directory
+3. In this `config.json file` change the following:
+  a) replace `tg_token` with your Tigergraph API token which you can get by following [these instructions](https://docs.tigergraph.com/tigergraph-server/current/api/built-in-endpoints#_request_a_token)
+  b) In Tigergraph Graphstudio, find your URL for the following queries and modify those in the `config.json` file (do NOT include the params - see `configtemplate.json` for examples):
+    1. patient_journey_subgraph
+    2. find_mental_health_recommendations
+    3. find_similar_ad_hoc
+2. Run the following commands to install requirements and launch demo
+```
+cd MentalHealthHeroku
+cd frontenddemo
+npm install && cd client && npm install
+cd ..
+npm start
+
+// In new terminal window:
+cd client
+npm start
+```
+3. The demo should be running at http://localhost:3000/

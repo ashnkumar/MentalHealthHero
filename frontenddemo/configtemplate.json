@@ -1,0 +1,13 @@
+
+{
+	// E.g. https://<yoursolution.i.tgcloud.io:14240/restpp/query/MyGraph/patient_journey_subgraph
+	"tg_patient_journey_subgraph_url": "<GSQL Query URL for patient_journey_subgraph query>",
+
+	// E.g. https://<yoursolution>.i.tgcloud.io:14240/restpp/query/MyGraph/find_mental_health_recommendations
+	"tg_find_similar_patients_url": "<GSQL Query URL for find_mental_health_recommendations>",
+
+	// E.g. https://<yoursolution>.i.tgcloud.io:14240/restpp/query/MyGraph/find_similar_ad_hoc
+	"tg_find_ad_hoc_patient_url": "<GSQL Query URL for find_similar_ad_hoc>",
+
+	"tg_token": "<TG TOKEN>"
+}
