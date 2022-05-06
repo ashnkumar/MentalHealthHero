@@ -33,7 +33,6 @@ const patientOptionsMap =
 }
 
 
-
 const makeTimelineOptions = (timelineData, timelineDatesData) => {
   return {
     xAxis: {
@@ -64,37 +63,65 @@ const makeTimelineOptions = (timelineData, timelineDatesData) => {
   }
 }
 
-const makeSubraphOptions = (nodes, edges) => {
-  return {
+const makeSubraphOptions = (nodes, edges, isMain) => {
+	const categories = [
+		{
+			"name": "Patient"
+		},
+		{
+			"name": "Tweet"
+		},
+		{
+			"name": "Voice Entry"
+		},
+		{
+			"name": "Therapy Session"
+		},
+		{
+			"name": "DASS Score"
+		}													
+	]
+
+	var optionsObj = {
     animationDuration: 1500,
     animationEasingUpdate: 'cubicInOut',
+    tooltip: {},  
     series: [
       {
         name: 'Patient Graph',
         type: 'graph',
         layout: 'force',
-        zoom: 2.5,
+        zoom: 2.0,
         data: nodes,
         links: edges,
+        categories: categories,
         roam: true,
         draggable: true,
         force: {
-          repulsion: 60,
+          repulsion: 50,
           gravity: 0.22,
-          edgeLength: 40
+          edgeLength: 20
         },
         label: {
+        	show: false,
           position: 'right',
           formatter: '{b}'
-        },
-        legend: [
-          {
-            data: ["Patient","Tweet","Voice Entry","Therapy Session","DASS Score"]
-          }
-        ],        
+        }        
+      }
+    ],
+		color: ["orange", "blue", "green", "purple", "pink"]    
+  }
+
+  if (isMain) {
+  	optionsObj.legend = [
+      {
+        data: categories.map(function (a) {
+          return a.name;
+        })
       }
     ]
-  }; 
+  }
+  return optionsObj
 }
 
 
@@ -129,7 +156,7 @@ function MostSimilarPatients({data, loading}) {
 	    	{
 	    		data.map((d) => (
 	    			<div key={d.pid} className="mostsimilarindividual">
-	      			<PatientSubgraph nodes={d.nodes} edges={d.edges} loading={loading}/>
+	      			<PatientSubgraph nodes={d.nodes} edges={d.edges} loading={loading} isMain={false}/>
 	      		</div>
 	    		))
 	    	}
@@ -139,9 +166,9 @@ function MostSimilarPatients({data, loading}) {
 
 }
 
-function PatientSubgraph({nodes, edges, loading}) {
+function PatientSubgraph({nodes, edges, loading, isMain}) {
 
-	const graphOptionsObj = makeSubraphOptions(nodes, edges)
+	const graphOptionsObj = makeSubraphOptions(nodes, edges, isMain)
 
 		if (loading) {
 			return (
@@ -169,11 +196,12 @@ function PatientTimeline({xAxis, yAxis}) {
 
 }
 
-function MainPatient({data, showingMostSimilar, loading}) {
+function MainPatient({data, showingMostSimilar, loading, recommendedTreatment}) {
 
 	if (loading) {
 		return (
 			<div className="mainpatintdiv">
+
       <ClipLoader color={"orange"} loading={loading} size={100} />
       </div>
 		)
@@ -186,10 +214,13 @@ function MainPatient({data, showingMostSimilar, loading}) {
           <div className="miniheadertesxt">Mental Health - Patient 360</div>
         </div>
         <div className="mainsubgraphdiv">
-        	<PatientSubgraph nodes={data.nodes} edges={data.edges} loading={false}/>
+        	<PatientSubgraph nodes={data.nodes} edges={data.edges} loading={false} isMain={true}/>
         </div>
         <div className="recommendationdiv">
-          { showingMostSimilar && <div className="recommendationtext">Recommended care plan: CBT</div> }
+          { showingMostSimilar && 
+          	<div className="recommendationtext">
+          		Recommended care plan: <span style={{color: 'red'}}> {recommendedTreatment || 'CBT'}</span>
+          	</div> }
         </div>
       </div>
       <div className="patientjourneydiv">
@@ -208,15 +239,15 @@ function MainPatient({data, showingMostSimilar, loading}) {
 }
 
 const processRawData = (rawData) => {
-	console.log(rawData)
 	var nodes = []
   var edges = []
   const allDates = []
   const timelineData = []
+	const namee = "cust" in rawData ? "cust" : "Others"
   const personNode = {
-    name: rawData.cust[0].attributes.id,
+    name: rawData[namee][0].attributes.id,
     category: 0,
-    symbolSize: 35,
+    symbolSize: 25,
     symbol: 'circle',
     itemStyle: {
       color: "orange"
@@ -236,8 +267,9 @@ const processRawData = (rawData) => {
     allDates.push(new Date(tweet.attributes.created))
     nodes.push({
       name: tweet.attributes.id,
+      value: `Sentiment: ${tweet.attributes["@sentiment"]}`,
       category: 1,
-      symbolSize: 12,
+      symbolSize: 8,
       symbol: 'roundRect',
       itemStyle: {
         color: "blue"
@@ -257,8 +289,9 @@ const processRawData = (rawData) => {
     allDates.push(new Date(voiceEntry.attributes.created))
     nodes.push({
       name: voiceEntry.attributes.id,
+      value: `Sentiment: ${voiceEntry.attributes["@sentiment"]}`,      
       category: 2,
-      symbolSize: 10,
+      symbolSize: 8,
       symbol: 'triangle',
       itemStyle: {
         color: "green"
@@ -278,9 +311,10 @@ const processRawData = (rawData) => {
     allDates.push(new Date(therapySession.attributes.created))
     nodes.push({
       name: therapySession.attributes.id,
+      value: `Attendance: ${therapySession.attributes["@attendance"]}`,      
       category: 3,
       symbol: 'diamond',
-      symbolSize: 12,
+      symbolSize: 8,
       itemStyle: {
         color: "purple"
       }      
@@ -300,6 +334,8 @@ const processRawData = (rawData) => {
     nodes.push({
       name: daasSeverity.attributes.id,
       category: 4,
+      symbolSize: 8,
+      value: `Severity: ${daasSeverity.attributes["@dass_severity"]}`,
       symbol: 'rect',
       itemStyle: {
         color: "pink"
@@ -326,18 +362,53 @@ const processRawData = (rawData) => {
   }
 }
 
+function findMode(array) {
+  // This function starts by creating an object where the keys are each unique number of the array and the values are the amount of times that number appears in the array.
+
+  let object = {}
+
+  for (let i = 0; i < array.length; i++) {
+    if (object[array[i]]) {
+      // increment existing key's value
+      object[array[i]] += 1
+    } else {
+      // make a new key and set its value to 1
+      object[array[i]] = 1
+    }
+  }
+
+  // assign a value guaranteed to be smaller than any number in the array
+  let biggestValue = -1
+  let biggestValuesKey = -1
+
+  // finding the biggest value and its corresponding key
+  Object.keys(object).forEach(key => {
+    let value = object[key]
+    if (value > biggestValue) {
+      biggestValue = value
+      biggestValuesKey = key
+    }
+  })
+
+  return biggestValuesKey
+
+}
+
 const processSimilarPatientData = (rawData) => {
+
 	var finalData = []
-	console.log("RAW DATA: ", rawData)
+	
 	const patientIDs = rawData.Others.map((el) => el.v_id)
+	const treatments = rawData.Others.map((el) => el.attributes["@treatment"])
+
 	patientIDs.forEach((pid) => {
 		var nodes = []
-	  var edges = []		
+	  var edges = []	
 
 	  const personNode = {
 	    name: pid,
 	    category: 0,
-	    symbolSize: 40,
+	    symbolSize: 25,
 	    itemStyle: {
 	      color: "orange"
 	    }
@@ -348,7 +419,7 @@ const processSimilarPatientData = (rawData) => {
 			    nodes.push({
 			      name: tweet.attributes.id,
 			      category: 1,
-			      symbolSize: 12,
+			      symbolSize: 8,
 			      symbol: 'roundRect',
 			      itemStyle: {
 			        color: "blue"
@@ -362,7 +433,7 @@ const processSimilarPatientData = (rawData) => {
 			    nodes.push({
 			      name: voiceEntry.attributes.id,
 			      category: 2,
-			      symbolSize: 10,
+			      symbolSize: 8,
 			      symbol: 'triangle',
 			      itemStyle: {
 			        color: "green"
@@ -376,7 +447,7 @@ const processSimilarPatientData = (rawData) => {
 			      name: therapySession.attributes.id,
 			      category: 3,
 			      symbol: 'diamond',
-			      symbolSize: 12,
+			      symbolSize: 8,
 			      itemStyle: {
 			        color: "purple"
 			      }      
@@ -388,6 +459,7 @@ const processSimilarPatientData = (rawData) => {
 			    nodes.push({
 			      name: daasSeverity.attributes.id,
 			      category: 4,
+			      symbolSize: 8,
 			      symbol: 'rect',
 			      itemStyle: {
 			        color: "pink"
@@ -411,23 +483,25 @@ const processSimilarPatientData = (rawData) => {
 
 	})
 
+	finalData.recommendedTreatment = findMode(treatments)
+
   return finalData
 }
 
 
 function ExistingPatient() {
-	const [currentPatient, setCurrentPatient] = React.useState(patientOptionsMap["patient50"])
+	const [currentPatient, setCurrentPatient] = React.useState(patientOptions[0])
 	const [currentPatientData, setCurrentPatientData] = React.useState(null)
 	const [similarPatientData, setSimilarPatientData] = React.useState(null)
 	const [mainPatientloading, setMainPatientLoading] = React.useState(true);
 	const [similarPatientsLoading, setSimilarPatientsLoading] = React.useState(true);
 	React.useEffect(() => {
-		console.log("Getting patient graph")
 		setMainPatientLoading(true)
 		setSimilarPatientsLoading(true)
 		fetch("/get_patient_data?patientid=" + currentPatient.value)
 			.then((res) => res.json())
 			.then((data) => {
+	
 				setCurrentPatientData(processRawData(data[0]))
 				setTimeout(() => {
 					setMainPatientLoading(false)
@@ -445,27 +519,34 @@ function ExistingPatient() {
 	}, [currentPatient])	
 
 
+		     // <div className="patientdropdown">
+		     // </div>
 return (
 		<React.Fragment>
 		    <div className="demomodediv selectpatient">
 		      <div className="demomodelabeldiv">
 		        <div className="demomodetext">Select Patient:</div>
 		      </div>
-		     <div className="patientdropdown">
 		       <Select 
-		       	defaultValue={currentPatient}
-		       	value={currentPatient}
+		       	menuPlacement={"bottom"}
+		       	minMenuHeight={100}
+		       	name="patient"
+		       	className="patientdropdown"
+		       	defaultValue={patientOptions[0]}
 		       	options={patientOptions} 
 		       	onChange={(f) => setCurrentPatient(f)}
 		       />
-		      </div>
-		    </div>
+		     </div>
+		    
 
 		    { currentPatientData &&
 		    		<MainPatient 
 		    			data={currentPatientData} 
 		    			loading={mainPatientloading}
-		    			showingMostSimilar={similarPatientData} /> }
+		    			showingMostSimilar={similarPatientData}
+		    			recommendedTreatment={similarPatientData ? similarPatientData["recommendedTreatment"] : "TBD"}
+		    			 /> }
+		    			
 
 		    { similarPatientData && 
 		    	<MostSimilarPatients loading={similarPatientsLoading} data={similarPatientData} /> }	
@@ -477,7 +558,7 @@ const startingCreateData = {
 	nodes: [{
 	    name: "create",
 	    category: 0,
-	    symbolSize: 40,
+	    symbolSize: 20,
 	    itemStyle: {
 	      color: "orange"
 	   }
@@ -487,9 +568,8 @@ const startingCreateData = {
 }
 
 function CreateGraphView ({data}) {
-	console.log(data)
 	return (
-		<PatientSubgraph nodes={data.nodes} edges={data.edges} loading={false} />
+		<PatientSubgraph nodes={data.nodes} edges={data.edges} loading={false} isMain={true} />
 	)
 }
 
@@ -693,7 +773,7 @@ function CreatePatient() {
 	      		<CreateGraphView data={data}/>
 	      	}
 	      	{ similarPatientData && (similarPatientsLoading === false) &&
-	      		<div className="recommendationtext">Recommended care plan: CBT</div>
+	      		<div className="recommendationtext">Recommended care plan: {similarPatientData["recommendedTreatment"]}</div>
 	      	}
 	      </div>
 	    </div>
