@@ -3,6 +3,8 @@ Repository with the source code and data to replicate and run our Mental Health 
 
 See Devpost submission [here](https://devpost.com/software/mental-health-hero) for more details.
 
+https://user-images.githubusercontent.com/5797744/167220791-6316d2a9-cefc-4975-8a32-f81f1c541de9.mp4
+
 ### 👉 Step 1: Download our solution from this repository
 Download the file **mentalhealthhero.tar.gz** from this repository.
 
